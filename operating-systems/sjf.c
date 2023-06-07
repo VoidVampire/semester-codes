@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 
 void swap(int *a, int *b) {
@@ -22,7 +21,7 @@ int main() {
     float wt[num];
     float tt[num];
     float avgtt = 0.0, avgwt = 0.0;
-    printf("Enter Process ID and corresponding burst time and arrival time\n");
+    printf("Enter Process ID and corresponding burst time\n");
     for (int i = 0; i < num; i++) {
         scanf("%d", &process[i]);
         scanf("%d", &bt[i]);
