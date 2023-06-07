@@ -38,10 +38,7 @@ int main() {
             }
         }
     }
-    for (int i = 0; i < num; i++) {
-        printf("%d %d %d", process[i], bt[i], at[i]);
-    }
-    
+
     for (int i = 0; i < num; i++) {
         wt[i] = 0.0;
         for (int j = 0; j < i; j++) {
