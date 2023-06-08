@@ -22,7 +22,7 @@ int main() {
     float tt[num];
     int at[num];
     float avgtt = 0.0, avgwt = 0.0;
-    printf("Enter Process ID and corresponding burst time\n");
+    printf("Enter Process ID, corresponding burst time and arrival time\n");
     for (int i = 0; i < num; i++) {
         scanf("%d", &process[i]);
         scanf("%d", &bt[i]);
