@@ -23,16 +23,12 @@ int main() {
     float tt[num];
     int at[num];
     float avgtt = 0.0, avgwt = 0.0;
-    int max_at = 0;
     printf("Enter Process ID, burst time, and arrival time:\n");
     for (int i = 0; i < num; i++) {
         scanf("%d", &process[i]);
         scanf("%d", &bt[i]);
         scanf("%d", &at[i]);
         remaining_bt[i] = bt[i];
-        if (at[i] > max_at) {
-            max_at = at[i];
-        }
     }
 
     for (int i = 0; i < num; i++) {
